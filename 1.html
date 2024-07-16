@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>web-title</title>
+    <meta charcet="utf-8">
+    <style>
+        h1 {
+            text-align: center;
+            border-width:5px;
+            border-color: brown;
+            border-style: solid;
+            padding: 20px;
+            margin: 20px;
+        }
+        a {
+            color:aqua;
+            text-decoration: 
+            overline;
+
+        }
+        .korea {
+            color:rgb(204, 36, 24);
+            text-decoration: none;
+
+        }
+        #daum {
+            color:blue;
+
+        }
+
+        div {
+            border: 5px, solid,
+            gray;
+            display: grid;
+            grid-template-columns: 
+            100px, 1fr;
+
+        }
+    #gri{
+        border: 5px,solid pink
+    }
+    @media
+    (max-width:500px){
+        #gri{
+
+            display:none;
+        }
+    }    
+    </style>
+    <script>
+        document.write(1+1)
+    </script>
+</head>
+<body>    
+    <h1>나를 소개합니다!</h1>
+    <img src="computer.jpeg">
+    <p>
+    해야하는것
+
+    </p>    
+
+    
+        
+        <l1>안녕하세요</l1><br>
+        <l2>저는 청라고등학교 2학년 9반 고성용입니다</l2>  
+
+    <ol>
+        <li><a href="https://naver.com/" class="korea">naver</a></li>
+        <li><a href="https://daum.net/" class="korea"
+        id="daum">daum</a></li>
+        <li><a href="https://google.com/">google</a></li>
+    </ol>
+    <div id="gri">      
+        <div>efqjofjqeowj</div>
+        <div>qfojfjfjdks</div>
+    </div> 
+    <input type="button" value="button" onclick="alert('hi')">
+    <input type="text" onchange="alert('change')">
+    <input type="button" value="day" onclick="
+        if(document.querySelector('body').dataset.mode==='night'){
+            document.querySelector('body').style.backgroundColor='wight';
+            document.querySelector('body').style.Color='black';
+
+            document.querySelector('body').dataset.mode==='day';
+            this.value='day';
+        }
+        else{
+            document.querySelector('body').style.backgroundColor='black';
+            document.querySelector('body').style.Color='wight';
+
+            document.querySelector('body').dataset.mode==='night';
+            this.value='night';
+        }
+        ">
+</body>
+
+</html>
